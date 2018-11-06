@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d75aa1eb-60ea-49df-aefe-32757992013a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('LoginCredentials').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4a77ca63-5b9d-4ee8-ac34-e97587a7afc1</id>
+      <masked>false</masked>
+      <name>var_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginCredentials').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>8db781d0-cbd3-4b5c-875c-c662e1c6c07d</id>
+      <masked>false</masked>
+      <name>var_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginCredentials').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>0c636345-7685-4889-a890-6687932b673f</id>
+      <masked>false</masked>
+      <name>var_Password</name>
+   </variable>
+</TestCaseEntity>
