@@ -14,15 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(var_URL)
+WebUI.click(findTestObject('Object Repository/Page_Portal IQ Member-Dashboard-Bui/a_FinancialFinancial'))
 
-WebUI.setText(findTestObject('Page_Login/Login_Email'), var_Email)
+WebUI.click(findTestObject('Object Repository/Page_Portal IQ Member-Dashboard-Fin/a_LeviesLevies'))
 
-WebUI.setText(findTestObject('Page_Login/Login_Password'), var_Password)
+WebUI.click(findTestObject('Object Repository/Page_Portal IQ Member-Dashboard-Lev/a_DocumentsDocuments'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Log in'))
-
-WebUI.click(findTestObject('Page_Portal IQ Member-Dashboard-Bui/a_Ms. New Owner'))
-
+WebUI.click(findTestObject('Object Repository/Page_Portal IQ Member-Dashboard-Doc/a_MeetingsMeetings'))
