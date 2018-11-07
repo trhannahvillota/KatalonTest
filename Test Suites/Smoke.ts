@@ -4,7 +4,7 @@
    <name>Smoke</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-07T11:11:03</lastRun>
+   <lastRun>2018-11-07T11:15:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -43,5 +43,11 @@
          <value>Password</value>
          <variableId>0c636345-7685-4889-a890-6687932b673f</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0f60a4d-dcd2-4792-a24d-6f2091abb725</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

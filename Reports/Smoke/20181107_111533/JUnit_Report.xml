@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="20" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="20" timestamp="2018-11-07 11:15:54" hostname="hannahvillota - 10.0.16.122" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tr-development/KatalonProject/Reports/Smoke/20181107_111533"/>
+         <property name="logFiles" value="/tr-development/KatalonProject/Reports/Smoke/20181107_111533/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hannahvillota - 10.0.16.122"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.0.16.122"/>
+         <property name="sessionId" value="e5d1d8174917a86282b4a7d988960a69"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-11-07 11:15:54 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-11-07 11:15:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-07 11:16:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 11:16:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev-piqstrataportal.tooltwist-project.com/login' successfully
+
+2018-11-07 11:16:06 - [MESSAGE][PASSED] - Navigate to 'https://dev-piqstrataportal.tooltwist-project.com/login' successfully
+
+2018-11-07 11:16:06 - [TEST_STEP][PASSED] - setText: Text 'billy.bulacso@tooltwist.com' is set on object 'Object Repository/Page_Login/Login_Email'
+
+2018-11-07 11:16:07 - [MESSAGE][PASSED] - Text 'billy.bulacso@tooltwist.com' is set on object 'Object Repository/Page_Login/Login_Email'
+
+2018-11-07 11:16:07 - [TEST_STEP][PASSED] - setText: Text 'Mouse@123' is set on object 'Object Repository/Page_Login/Login_Password'
+
+2018-11-07 11:16:07 - [MESSAGE][PASSED] - Text 'Mouse@123' is set on object 'Object Repository/Page_Login/Login_Password'
+
+2018-11-07 11:16:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Log in' is clicked on
+
+2018-11-07 11:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Log in' is clicked on
+
+2018-11-07 11:16:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Portal IQ Member-Dashboard-Bui/a_Ms. New Owner' is clicked on
+
+2018-11-07 11:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Portal IQ Member-Dashboard-Bui/a_Ms. New Owner' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-07 11:15:54 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
