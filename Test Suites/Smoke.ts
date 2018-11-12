@@ -44,10 +44,4 @@
          <variableId>0c636345-7685-4889-a890-6687932b673f</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>c0f60a4d-dcd2-4792-a24d-6f2091abb725</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Navigation</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
